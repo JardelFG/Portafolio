@@ -28,9 +28,9 @@
   },
   "EXPERIENCE": {
     "TITLE": "Projects",
-    "PROJECT_STORE": {
-      "TITLE": "React Store",
-      "DESCRIPTION": "Explore this online store developed with React and optimized with Vite. In this project, each component was structured to offer an intuitive and efficient shopping experience. Enjoy and share your opinion about the quality, speed, and smoothness of this online store!"
+    "PROJECT_BLACKLIST": {
+      "TITLE": "Lists of",
+      "DESCRIPTION": "Web application built with Angular and NgRx that allows users to create, view, and manage lists with descriptive titles. Data is initially stored in localStorage, ensuring basic persistence without the need for a backend. The system is prepared for integration with third-party authentication and a database, in case scalability or multi-user access is required."
     }
   },
   "FOOTER": {

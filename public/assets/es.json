@@ -28,9 +28,9 @@
   },
   "EXPERIENCE": {
     "TITLE": "Proyectos",
-    "PROJECT_STORE": {
-      "TITLE": "Tienda React",
-      "DESCRIPTION": "Explora esta tienda en línea desarrollada con React y optimizada con Vite. En este proyecto, se estructuró cada componente para lograr ofrecer una experiencia de compra intuitiva y eficiente. ¡Disfruta y opina sobre la calidad, rapidez y fluidez de esta tienda online!"
+    "PROJECT_BLACKLIST": {
+      "TITLE": "Listas de",
+      "DESCRIPTION": "Aplicación web construida con Angular y NgRx que permite a los usuarios crear, visualizar y gestionar listas con títulos descriptivos. Los datos se almacenan inicialmente en el localStorage, asegurando persistencia básica sin necesidad de backend. El sistema está preparado para integrarse con autenticación de terceros y base de datos en caso de que se requiera escalabilidad o acceso multiusuario."
     }
   },
   "FOOTER": {

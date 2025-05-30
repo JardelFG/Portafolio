@@ -5,13 +5,16 @@
 
   <div class="cards-container" id="cardList">
     <app-card-project
-      [title]="'EXPERIENCE.PROJECT_STORE.TITLE' | translate"
-      [description]="'EXPERIENCE.PROJECT_STORE.DESCRIPTION' | translate"
+      [title]="'EXPERIENCE.PROJECT_BLACKLIST.TITLE' | translate"
+      [description]="'EXPERIENCE.PROJECT_BLACKLIST.DESCRIPTION' | translate"
       [ref]="'https://tsnlists.netlify.app'"
+      [img]="'/assets/imgs/front-blacklist.webp'"
       [links]="[
-        '/assets/icons/icon-react.svg',
-        '/assets/icons/icon-netlify.svg'
+        '/assets/icons/favicon.svg',
+        'assets/icons/icon-sass.svg',
+        '/assets/icons/icon-typescript.svg',
+        '/assets/icons/icon-netlify.svg',
       ]"
-    ></app-card-project>
+    />
   </div>
 </section>
