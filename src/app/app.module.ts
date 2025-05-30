@@ -25,6 +25,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { SelectLenguageComponent } from './shared/components/select-lenguage/select-lenguage.component';
 import { FormsModule } from '@angular/forms';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { ImagenFallbackComponent } from './shared/components/imagen-fallback/imagen-fallback.component';
 
 export function httpTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/', '.json');
@@ -48,6 +49,7 @@ export function httpTranslateLoader(http: HttpClient) {
     FooterComponent,
     SwitchThemeComponent,
     SelectLenguageComponent,
+    ImagenFallbackComponent,
   ],
   imports: [
     BrowserModule,

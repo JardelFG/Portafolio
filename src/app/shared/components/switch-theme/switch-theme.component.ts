@@ -12,9 +12,12 @@ export class SwitchThemeComponent {
 
   ngOnInit(): void {
     this.themeService.initTheme();
+    this.isLightTheme = this.themeService.current === 'light'
+    console.log(this.themeService.initTheme())
   }
 
   toggleTheme(): void {
     this.themeService.toggleTheme();
+    this.isLightTheme = this.themeService.current === 'light'
   }
 }

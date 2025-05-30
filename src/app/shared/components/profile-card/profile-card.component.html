@@ -5,14 +5,14 @@
     <span class="circle minimize"></span>
   </div>
   <div class="card-head">
-    <picture>
-      <img
-        src="/assets/imgs/profile-contact.jpg"
+    <div class="card-img">
+      <app-imagen-fallback
+        src="https://res.cloudinary.com/dccbjuyia/image/upload/v1748639127/IMG_20211126_150558_pxtr7b.webp"
+        fallback="/assets/imgs/profile-contact.webp"
         alt="profile photo"
         loading="eager"
-        class="card-img"
       />
-    </picture>
+    </div>
     <span>{{ 'PROFILE_CARD.AGE' | translate }}</span>
     <span>{{ 'PROFILE_CARD.LOCATION' | translate }}</span>
   </div>
