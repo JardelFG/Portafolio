@@ -7,5 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ContactSocialLinkComponent {
   @Input() alt=''
+  @Input() ref=''
   @Input() src=''
 }

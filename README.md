@@ -18,7 +18,7 @@
 
 ## 📸 Vista previa
 
-![Front-page](public/assets/imgs/front.png)
+![Front-page](https://res.cloudinary.com/dccbjuyia/image/upload/v1748636687/front_wx6ixh.png)
 
 ---
 

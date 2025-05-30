@@ -9,6 +9,7 @@ export class CardProjectComponent {
   @Input() title: string = '';
   @Input() ref: string = '';
   @Input() img: string = '';
+  @Input() fallback: string = '';
   @Input() links: string[] = [];
   @Input() description: string = '';
 }

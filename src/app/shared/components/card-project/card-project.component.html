@@ -5,11 +5,13 @@
     rel="noopener noreferrer"
   >
     <h1>{{ title }}</h1>
-    <img
-      class="card-img"
-      src="{{img}}"
-      alt="redireccionar a web de {{title}}"
-    />
+    <picture class="card-img">
+      <app-imagen-fallback
+        src="{{img}}"
+        fallback="{{fallback}}"
+        alt="redireccionar a web de {{title}}"
+      />
+    </picture>
   </a>
   <p>
     <i
