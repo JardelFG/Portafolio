@@ -1,0 +1,33 @@
+<div class="card-contact">
+  <div class="btn-actions">
+    <span class="circle close"></span>
+    <span class="circle reduce"></span>
+    <span class="circle minimize"></span>
+  </div>
+  <div class="card-head">
+    <picture>
+      <img
+        src="/assets/imgs/profile-contact.jpg"
+        alt="profile photo"
+        loading="eager"
+        class="card-img"
+      />
+    </picture>
+    <span>{{ 'PROFILE_CARD.AGE' | translate }}</span>
+    <span>{{ 'PROFILE_CARD.LOCATION' | translate }}</span>
+  </div>
+  <div class="day-quote">
+    <span>
+      {{ 'PROFILE_CARD.QUOTE_LABEL' | translate }}:
+      <q>{{ 'PROFILE_CARD.QUOTE' | translate }}</q>
+    </span>
+  </div>
+  <p>{{ 'PROFILE_CARD.INTEREST_FIELDS' | translate }}</p>
+  <div class="labels">
+    @for (tag of tagText; track $index) {
+        <button>
+            <span class="box"> {{ tag }} </span>
+        </button>
+    }
+  </div>
+</div>

@@ -1,0 +1,20 @@
+:root
+  --main-padding-y: 1.25rem 
+  --main-padding-mobile: 2rem
+  --main-gap: 5.5rem  
+  
+.main
+  color: var(--colorText)
+  height: 100vh
+  padding: var(--main-padding-y) 0
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  align-items: center
+  justify-items: center
+  gap: var(--main-gap)
+
+@media screen and (width <= 769px)
+  .main
+    height: 100%
+    grid-template-columns: repeat(1, 1fr)
+    padding: var(--main-padding-mobile)

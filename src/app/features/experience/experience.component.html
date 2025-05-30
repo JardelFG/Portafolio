@@ -1,0 +1,17 @@
+<section class="container">
+  <span class="line1"></span>
+  <h1 class="title">{{ 'EXPERIENCE.TITLE' | translate }}</h1>
+  <span class="line2"></span>
+
+  <div class="cards-container" id="cardList">
+    <app-card-project
+      [title]="'EXPERIENCE.PROJECT_STORE.TITLE' | translate"
+      [description]="'EXPERIENCE.PROJECT_STORE.DESCRIPTION' | translate"
+      [ref]="'https://tsnlists.netlify.app'"
+      [links]="[
+        '/assets/icons/icon-react.svg',
+        '/assets/icons/icon-netlify.svg'
+      ]"
+    ></app-card-project>
+  </div>
+</section>

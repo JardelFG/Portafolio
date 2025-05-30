@@ -1,0 +1,37 @@
+.container
+  background: var(--colorBg)
+  padding: 3.125rem 0
+
+  span
+    display: block
+    border: 0.063rem solid grey
+
+  .line1
+    margin-bottom: 2.5rem
+
+  .line2
+    margin: 0
+
+  .title
+    text-align: center
+    padding: 0
+    margin-bottom: 2.5rem
+    font-size: xx-large
+    font-weight: 600
+    color: var(--colorText)
+
+  .cards-container
+    display: flex
+    justify-content: space-evenly
+    min-height: 18.75rem
+    margin: 0
+    flex-wrap: wrap
+    gap: 0.938rem
+    transition: all 1s ease
+
+@media screen and (width <= 769px)
+  .container
+    height: 100%
+   
+  .card-container
+    padding: 1.4rem

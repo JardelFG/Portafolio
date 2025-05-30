@@ -1,0 +1,105 @@
+.card-contact
+  max-width: 31.25rem
+  background: var(--colorBgCardContact) 
+  color: var(--colorCardContactText)
+  padding: .625rem
+  margin: .625rem
+  line-height: 2
+  text-align: center
+  user-select: none
+  transition: all .5s ease-in
+  
+  .btn-actions
+    display: flex
+    justify-content: flex-start
+    gap: 3px
+    
+    .circle
+      display: inline-block
+      width: 0.75rem
+      height: 0.75rem
+      border-radius: 50%
+    
+    .close
+      background-color: rgb(241, 57, 57)
+  
+    .reduce
+      background-color: rgb(244, 244, 39)
+
+    .minimize
+      background-color: rgb(5, 196, 5)
+
+  .card-head
+    .card-img
+      width: 250px
+      height: 250px
+      border-radius: 50%
+      object-fit: cover
+    
+
+  .labels
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: .5rem
+
+    .box
+        width: 6.25rem
+        position: relative
+        transition: .5s linear
+        overflow: hidden
+        color: var(--colorCardContactText)
+        padding: 0.313rem
+        margin: 0 0.313rem
+        text-transform: uppercase
+        font-weight: 900
+    
+        &:before, &:after
+            position: absolute
+            content: ''
+            height: .25rem
+            width: 100%
+            box-sizing: border-box
+
+        &:before
+            left: 0
+            bottom: 0
+            border-bottom: .25rem solid transparent
+            border-left: .25rem solid transparent
+            transform: translateX(100%)
+
+        &:after
+            top: 0
+            left: 0
+            border-top: .25rem solid transparent
+            border-right: .25rem solid transparent
+            box-sizing: border-box
+            transform: translateX(-100%)
+
+        &:hover
+            box-shadow: 0 .31rem .938rem rgba(0, 0, 0, 0.5)
+
+            &:before, &:after
+                border-color: var(--colorCardContactText)
+                height: 100%
+                transform: translateX(0)
+                transition: .3s transform linear, .3s height linear .3s
+
+.day-quote
+  padding: 8px
+
+button
+  border: none
+  background: transparent
+
+.card-head,
+.day-quote,
+.card-footer p
+  font-family: Georgia, 'Times New Roman', Times, serif
+  font-weight: 400
+
+.card-head
+  padding: 8px
+
+span
+  display: block

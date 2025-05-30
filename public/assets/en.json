@@ -1,0 +1,48 @@
+{
+  "PRESENTATION": {
+    "HELLO": "Hello",
+    "NAME": "my name is"
+  },
+  "LOGOUT": "Log out",
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT_ME": "About me",
+    "PROJECTS": "Projects",
+    "CONTACT": "Contact"
+  },
+  "ABOUT_ME": {
+    "TITLE": "About me",
+    "SHORT": "I am a junior web developer focused on Front-end and basic Back-end, passionate about simple designs and web accessibility. Backed by a year of self-taught experience in personal and collaborative projects.",
+    "EXPANDED": "With completed secondary studies, I have a great interest in programming, especially in web development and UI design.<br/>I have acquired knowledge through online courses, certifications, participation in challenges and competitions, among other activities. With the ideal tools to develop, I continue to expand the reach of my skills.",
+    "SKILLS": "Skills"
+  },
+  "PROFILE_CARD": {
+    "AGE": "25 years old",
+    "LOCATION": "Location: Chile",
+    "QUOTE_LABEL": "Quote of the day",
+    "QUOTE": "Don't count on luck, count on your skills.",
+    "INTEREST_FIELDS": "Fields of interest"
+  },
+  "CONTACT-ME": {
+    "TITLE": "Contact with me"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Projects",
+    "PROJECT_STORE": {
+      "TITLE": "React Store",
+      "DESCRIPTION": "Explore this online store developed with React and optimized with Vite. In this project, each component was structured to offer an intuitive and efficient shopping experience. Enjoy and share your opinion about the quality, speed, and smoothness of this online store!"
+    }
+  },
+  "FOOTER": {
+    "LOCATION": "Santiago, Chile",
+    "WEB_VERSION": "web version 2.0",
+    "VERSION_1": "version 1.0"
+  },
+  "SOCIAL": {
+    "FACEBOOK": "Redirect to Facebook",
+    "GITHUB": "Redirect to GitHub",
+    "LINKEDIN": "Redirect to LinkedIn",
+    "TWITTER": "Redirect to Twitter",
+    "INSTAGRAM": "Instagram redirect disabled"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "PRESENTATION": {
+    "HELLO": "Hola",
+    "NAME": "mi nombre es"
+  },
+  "LOGOUT": "Cerrar sesión",
+  "NAV": {
+    "HOME": "Inicio",
+    "ABOUT_ME": "Sobre mí",
+    "PROJECTS": "Proyectos",
+    "CONTACT": "Contacto"
+  },
+  "ABOUT_ME": {
+    "TITLE": "Sobre mí",
+    "SHORT": "Soy un desarrollador web junior enfocado en Front-end y Back-end básico, apasionado por diseños simples y la accesibilidad web. Respaldado por un año de experiencia de manera autodidacta en proyectos personales y colaborativos",
+    "EXPANDED": "Con los estudios medios completo, siento gran interés por la programación inclinado especialmente en el desarrolo web y diseño UI.<br/> He adquirido conocimientos a través de cursos en línea, obtención de certificaciones, participación en desafíos y competiciones, entre otras actividades. Con las herramientas ideales para desarrollar sigo expandiendo el alcance de mis habilidades.",
+    "SKILLS": "Habilidades"
+  },
+  "PROFILE_CARD": {
+    "AGE": "25 años",
+    "LOCATION": "Localidad: Chile",
+    "QUOTE_LABEL": "Frase del día",
+    "QUOTE": "No cuentes con la suerte, cuenta con tus habilidades.",
+    "INTEREST_FIELDS": "Campos de interés"
+  },
+  "CONTACT-ME": {
+    "TITLE": "Contacta conmigo"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Proyectos",
+    "PROJECT_STORE": {
+      "TITLE": "Tienda React",
+      "DESCRIPTION": "Explora esta tienda en línea desarrollada con React y optimizada con Vite. En este proyecto, se estructuró cada componente para lograr ofrecer una experiencia de compra intuitiva y eficiente. ¡Disfruta y opina sobre la calidad, rapidez y fluidez de esta tienda online!"
+    }
+  },
+  "FOOTER": {
+    "LOCATION": "Santiago, Chile",
+    "WEB_VERSION": "web versión 2.0",
+    "VERSION_1": "versión 1.0"
+  },
+  "SOCIAL": {
+    "FACEBOOK": "Redireccionar a Facebook",
+    "GITHUB": "Redireccionar a GitHub",
+    "LINKEDIN": "Redireccionar a LinkedIn",
+    "TWITTER": "Redireccionar a Twitter",
+    "INSTAGRAM": "Redirección a Instagram desactivado"
+  }
+}

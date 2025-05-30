@@ -1,0 +1,82 @@
+footer
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  color: var(--colorText)
+  background: var(--colorBgFooter)
+
+  .social-footer
+    height: 3.75rem
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .social-footer-items
+      display: flex
+      align-items: center
+
+      a
+        text-decoration: none
+        font-weight: 500
+        color: black
+        padding: .188rem
+
+        .flex-icon
+          width: 2.5rem
+          height: 2.5rem
+          display: flex
+          justify-content: center
+          align-items: center
+          font-size: 1.9rem
+
+          &.linkedin:hover
+            color: var(--colorIconLinkedin)
+            box-shadow: .188rem .113rem .113rem 0 black
+
+          &.github:hover
+            color: var(--colorIconGithub)
+            box-shadow: .188rem .113rem .113rem 0 rgb(17, 16, 16)
+
+          &.facebook:hover
+            color: var(--colorIconFacebook)
+            box-shadow: .188rem .113rem .113rem 0 black
+
+          &.twitter:hover
+            color: var(--colorIconTwitter)
+            box-shadow: .188rem .113rem .113rem 0 black
+
+          &.instagram:hover
+            color: var(--colorIconInstagram)
+            box-shadow: .188rem .113rem .113rem 0 black
+
+  .footer-text
+    display: flex
+    padding: 0 1rem
+    gap: .3rem
+    a
+      text-decoration: none
+      color: var(--colorText)
+
+      &:hover
+        color: green
+
+@media (max-width: 767px)
+  footer
+    flex-direction: column
+    align-items: stretch
+
+    .social-footer
+      height: 3.125rem
+      justify-content: center
+
+      .social-footer-items
+        justify-content: center
+
+        a
+          .flex-icon
+            font-size: 1.5rem
+
+    .footer-text
+      text-align: center
+      margin-top: .5rem

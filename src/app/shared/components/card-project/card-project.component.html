@@ -1,0 +1,28 @@
+<div class="card">
+  <a
+    href="{{ref}}"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <h1>{{ title }}</h1>
+    <img
+      class="card-img"
+      src="{{img}}"
+      alt="redireccionar a web de {{title}}"
+    />
+  </a>
+  <p>
+    <i
+      >{{ description }}</i
+    >
+  </p>
+  <footer>
+    @for (link of links; track $index) {
+        <img
+          class="tecno-icons"
+          src="{{link}}"
+          alt="icon"
+        />    
+    }
+  </footer>
+</div>

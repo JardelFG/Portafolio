@@ -1,0 +1,17 @@
+<section class="main">
+  <article class="about-me">
+    <h2>{{ 'ABOUT_ME.TITLE' | translate }}</h2>
+    <p class="info" [innerHTML]="expandedActive ? ( 'ABOUT_ME.EXPANDED' | translate ) : ( 'ABOUT_ME.SHORT' | translate )"></p>
+    <span class="arrow-expand" (click)="showInfoExpanded()">
+      <mat-icon>{{ "keyboard_arrow_down" }}</mat-icon>
+    </span>
+  </article>
+  <section class="skills" id="skills">
+    @for (skill of skills; track $index) {
+        <picture class="skill-item-{{$index}} item">
+          <img src="{{ skill.src }}" alt='icono de {{skill.name}}' />
+          <span class="skillName">{{ skill.name }}</span>
+        </picture>
+    }
+  </section>
+</section>

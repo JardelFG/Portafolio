@@ -1,0 +1,48 @@
+<div Class="navigation">
+  <label>
+    <img
+      class="logo"
+      (click)="toHome()"
+      tabindex="0"
+      src="/assets/icons/logo-tsn3.png"
+      alt="logo tsn"
+    />
+  </label>
+
+  <nav class="nav-sections" tabindex="0" aria-label="lista de">
+    <ul role="menu">
+      <li role="menuitem">
+        <a 
+          id="homeFocus"
+          (click)="toHome()"
+          [ngClass]="{'inFocus': activeSection === 'home'}"
+        >{{ 'NAV.HOME' | translate }}</a>
+      </li>
+      <li role="menuitem">
+        <a 
+          id="aboutFocus"
+          (click)="toAboutMe()"
+          [ngClass]="{'inFocus': activeSection === 'about-me'}"
+        >{{ 'NAV.ABOUT_ME' | translate }}</a>
+      </li>
+      <li role="menuitem">
+        <a 
+          id="projectsFocus"
+          (click)="toProjects()"
+          [ngClass]="{'inFocus': activeSection === 'projects'}"
+        >{{ 'NAV.PROJECTS' | translate }}</a>
+      </li>
+      <li role="menuitem">
+        <a 
+          id="contactFocus"
+          (click)="toContact()"
+          [ngClass]="{'inFocus': activeSection === 'contact'}"
+        >{{ 'NAV.CONTACT' | translate }}</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="nav-features">
+    <app-switch-theme/>
+    <app-select-lenguage/>
+  <div>
+</div>

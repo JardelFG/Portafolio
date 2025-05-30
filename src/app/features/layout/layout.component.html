@@ -1,0 +1,20 @@
+<main>
+    <section id="main-nav" [ngClass]="{'navActions': navScrolled}">
+      <app-nav/>
+    </section>
+    <section>
+        <app-home id="home"/>
+    </section>
+    <section>
+      <app-about-me id="about-me"/>
+    </section>
+    <section>
+        <div class="main-projects" tabindex="0" aria-label="sección de proyectos">
+          <app-experience id="projects"/>
+        </div>
+    </section>
+    <section>
+        <app-contact  id="contact"/>
+    </section>
+    <app-footer/>
+  </main>
