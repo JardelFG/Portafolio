@@ -31,6 +31,10 @@
     "PROJECT_BLACKLIST": {
       "TITLE": "Listas de",
       "DESCRIPTION": "Aplicación web construida con Angular y NgRx que permite a los usuarios crear, visualizar y gestionar listas con títulos descriptivos. Los datos se almacenan inicialmente en el localStorage, asegurando persistencia básica sin necesidad de backend. El sistema está preparado para integrarse con autenticación de terceros y base de datos en caso de que se requiera escalabilidad o acceso multiusuario."
+    },
+    "PROJECT_ONLINESTORE": {
+      "TITLE": "Tienda en Linea",
+      "DESCRIPTION": "Proyecto desarrollado en React como muestra de habilidades en desarrollo web y gestión de estado. Esta aplicación simula una tienda en línea donde los usuarios pueden navegar productos, agregar o eliminar items del carrito, todo mientras se gestiona el stock de forma dinámica."
     }
   },
   "FOOTER": {
